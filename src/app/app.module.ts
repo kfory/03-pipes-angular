@@ -10,13 +10,17 @@ import { registerLocaleData } from '@angular/common';
 registerLocaleData(localeEs); 
 
 import  localeFr  from '@angular/common/locales/fr';
+import { CapitalizadoPipe } from './pipes/capitalizado.pipe';
+import { TareaPipe } from './pipes/tarea.pipe';
 //para pasarlo en Frances
 registerLocaleData(localeFr);
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CapitalizadoPipe,
+    TareaPipe
   ],
   imports: [
     BrowserModule

@@ -42,4 +42,9 @@ idioma:string = 'es'
 
 //Pipes Personalizado
 nombre2:string = 'Kevin Fory'
+
+//tarea
+clave: string = "juegosdelafo"
+activar:boolean = true
 }
+
